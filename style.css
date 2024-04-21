@@ -37,6 +37,10 @@
 }
 .announcements{
     grid-area: announcement;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    grid-template-areas: "announcementTitle" "card3";
+    gap:5px;
 }
 .trending{
     grid-area: trending;
@@ -55,6 +59,20 @@
     gap:10px;
 
 }
+.announcementTitle{
+    grid-area: announcementTitle;
+    background-color: red;
+}
+.announcementCards{
+    display: grid;
+    grid-row: card3;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:5px;
+
+}
 .card2{
     background-color: rgb(167, 157, 139);
+}
+.card3{
+    background-color: rgb(204, 132, 44);
 }
