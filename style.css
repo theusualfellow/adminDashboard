@@ -44,6 +44,10 @@
 }
 .trending{
     grid-area: trending;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    grid-template-areas: "trendingTitle" "trendingCards";
+    gap:10px;
 }
 .card1{
     background-color: rgb(163, 142, 142)
@@ -61,7 +65,6 @@
 }
 .announcementTitle{
     grid-area: announcementTitle;
-    background-color: red;
 }
 .announcementCards{
     display: grid;
@@ -70,9 +73,23 @@
     gap:5px;
 
 }
+.trendingTitle{
+    grid-area: trendingTitle;
+}
+.trendingCards{
+    grid-area: trendingCards;
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+    gap:5px;
+
+}
+
 .card2{
     background-color: rgb(167, 157, 139);
 }
 .card3{
     background-color: rgb(204, 132, 44);
+}
+.card4{
+    background-color: blueviolet;
 }
