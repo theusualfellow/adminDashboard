@@ -52,17 +52,23 @@
 }
 .projectContent div{
     background-color: rgb(78, 88, 78);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
-.announcementTitle{
+.announcementsTitle{
     grid-area: announcementTitle;
+    margin-top:30px;
+    
 }
 .announcementsContent{
     grid-area: announcementContent;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
+    width:300px;
 }
 .trendingTitle{
     grid-area: trendingTitle;
+    margin-top:10px;
 }
 .trendingContent{
     grid-area: trendingContent;
