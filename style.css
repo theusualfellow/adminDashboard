@@ -1,7 +1,11 @@
 
+.icon{
+    height: 30px;
+    width: 30px;
+}
 .container{
-    height:100vh;
-    width:100vw;
+    height: 98vh;
+    width:98vw;
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 4fr;
@@ -10,7 +14,9 @@
     font-size: 15px;
     margin:20px;
 }
-
+.subHeadings{
+    margin-left:10px;
+}
 .card{
     background-color: rgb(72, 71, 71);
 }
@@ -18,6 +24,9 @@
     grid-area: header;
     display: grid;
     grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    justify-items: center;
+    padding-bottom: 20px;
 }
 .sidebar{
     grid-area:sidebar;
@@ -74,4 +83,29 @@
     grid-area: trendingContent;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.searchBar{
+    width: 500px;
+    border-radius: 10px;
+}
+.profilePic{
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    border: 2px solid pink;
+}
+.smallPic{
+    height:40px;
+    width: 40px;
+}
+.imageText, .buttons, .searchBar{
+    display:flex;
+    align-items: center;
+}
+.buttons{
+    gap:5px;
+}
+input[type=button]{
+    background-color: rgb(83, 83, 186);
+    width: 70px;
 }
