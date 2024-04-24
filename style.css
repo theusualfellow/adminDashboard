@@ -18,7 +18,7 @@
     margin-left:10px;
 }
 .card{
-    background-color: rgb(72, 71, 71);
+    background-color: #082f49;
 }
 .header{
     grid-area: header;
@@ -60,9 +60,10 @@
     margin:20px;
 }
 .projectContent div{
-    background-color: rgb(78, 88, 78);
+    background-color: #f0f9ff;
     display: grid;
     grid-template-rows: 1fr 1fr;
+    border-radius: 30px;
 }
 .announcementsTitle{
     grid-area: announcementTitle;
@@ -74,6 +75,9 @@
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     width:300px;
+    background-color: #bae6fd;
+    border-radius: 30px;
+    padding:10px;
 }
 .trendingTitle{
     grid-area: trendingTitle;
@@ -81,6 +85,11 @@
 }
 .trendingContent{
     grid-area: trendingContent;
+    background-color: #bae6fd;
+    width: 300px;
+    margin-bottom: 60px;
+    border-radius: 30px;
+    padding: 10px;
 }
 .searchBar{
     width: 500px;
@@ -100,6 +109,7 @@
 .imageText, .buttons, .searchBar{
     display:flex;
     align-items: center;
+    gap:20px;
 }
 .buttons{
     gap:5px;
