@@ -150,3 +150,7 @@ input[type=button]{
     margin-left: 200px;
     gap:20px;
 }
+.projectImages{
+    height: 25vh;
+    width: 25vh;
+}
