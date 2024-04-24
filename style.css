@@ -50,7 +50,7 @@
 }
 .projectTitle{
     grid-area: projectTitle;
-    margin:0 0 0 20px;
+    margin:50px 0 0 50px;
 }
 .projectContent{
     grid-area: projectContent;
@@ -66,7 +66,7 @@
 }
 .announcementsTitle{
     grid-area: announcementTitle;
-    margin-top:30px;
+    margin-top:50px;
     
 }
 .announcementsContent{
@@ -77,12 +77,10 @@
 }
 .trendingTitle{
     grid-area: trendingTitle;
-    margin-top:10px;
+    margin-top:50px;
 }
 .trendingContent{
     grid-area: trendingContent;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 .searchBar{
     width: 500px;
@@ -97,6 +95,7 @@
 .smallPic{
     height:40px;
     width: 40px;
+    border-radius: 100px;  
 }
 .imageText, .buttons, .searchBar{
     display:flex;
@@ -108,4 +107,25 @@
 input[type=button]{
     background-color: rgb(83, 83, 186);
     width: 70px;
+    border-radius: 10px;
+}
+.trendingCards{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin-top:30px;
+}
+.top{
+    padding: 30px;
+}
+.projectContent .cards{
+    height:300px;
+}
+.heading{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.header div{
+    align-content: center;
 }
